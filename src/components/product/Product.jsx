@@ -38,7 +38,8 @@ const Product = () => {
         <div className="flex justify-between">
           <div>
             <p className="mb-[42px]">
-              Products / Gaming Headsets & Audio /<span className="font-bold"> {product.name}</span>
+              Products / Gaming Headsets & Audio /
+              <span className="font-bold"> {product.name}</span>
             </p>
             <div className="flex items-center w-[717px] justify-between h-[700px] bg-slate-300">
               <AiOutlineLeft />
@@ -118,7 +119,7 @@ const Product = () => {
                   <p>Enter your Postal Code for Delivery Availability</p>
                 </div>
               </div>
-              <div className="flex items-center gap-[30px]">
+              <div className="flex items-center gap-[30px] p-7">
                 <RiTableAltLine className="w-[30px] h-[30px]" />
                 <div>
                   <p className="font-bold text-[18px]">Return Delivery</p>
